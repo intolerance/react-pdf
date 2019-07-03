@@ -11,13 +11,6 @@
     "name": "Wojciech Maj",
     "email": "kontakt@wojtekmaj.pl"
   },
-  "contributors": [
-    {
-      "name": "Allen Gammel",
-      "email": "allengammel@gmail.com",
-      "url": "https://github.com/intolerance"
-    }
-  ],
   "license": "MIT",
   "dependencies": {
     "react": "^16.5.0",
