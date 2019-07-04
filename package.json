@@ -29,7 +29,8 @@
       "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
     },
     "testPathIgnorePatterns": [
-      "utils.js"
+      "utils.js",
+      "dist"
     ]
   },
   "keywords": [
