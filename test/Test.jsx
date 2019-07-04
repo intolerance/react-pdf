@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { PDFDataRangeTransport } from 'pdfjs-dist';
-import { Document, Outline, Page } from 'react-pdf/src/entry.webpack';
-import 'react-pdf/src/Page/AnnotationLayer.css';
+import { Document, Outline, Page } from 'react-pdf/dist/entry.webpack';
+import 'react-pdf/dist/Page/AnnotationLayer.css';
 
 import './Test.less';
 

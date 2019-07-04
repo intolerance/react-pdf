@@ -4,7 +4,8 @@
   "description": "A sample page for React-PDF.",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --config webpack.config.hot.js"
   },
   "author": {
     "name": "Wojciech Maj",
@@ -34,9 +35,11 @@
     "file-loader": "^2.0.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
+    "react-hot-loader": "^4.12.1",
     "style-loader": "^0.23.0",
     "url-loader": "^1.1.1",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1"
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.7.2"
   }
 }
